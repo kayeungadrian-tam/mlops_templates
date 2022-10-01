@@ -1,5 +1,5 @@
-default_language_version:
-  python: {{cookiecutter.python_version}}
+# default_language_version:
+  # python: {{cookiecutter.python_version}}
 repos:
   - repo: https://github.com/psf/black
     rev: 22.3.0
@@ -15,5 +15,5 @@ repos:
         args: [--allow-missing-credentials]
       - id: detect-private-key
       - id: end-of-file-fixer
-      - id: mixed-line-ending
       - id: trailing-whitespace
+      - id: check-yaml  # checks yaml files for parseable syntax.
