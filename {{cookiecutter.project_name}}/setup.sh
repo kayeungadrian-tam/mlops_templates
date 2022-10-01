@@ -16,7 +16,7 @@ if ! command -v dvc --version &>/dev/null; then
 fi
 dvc init
 
-gh repo create {{cookiecutter.project_name}} {{cookiecutter.repository_visiability}}
+gh repo create {{cookiecutter.repository_name}} {{cookiecutter.repository_visiability}}
 git add .
 git commit -m "init commit"
 git branch -M main
