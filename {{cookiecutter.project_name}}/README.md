@@ -8,13 +8,13 @@
 
 ## Installation
 
-Gitclone
+Git clone
 
 ```bash
 pip install git+ssh://git@github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.repository_name }}.git
 ```
 
-Create
+Create repo
 
 ```bash
 bash setup.sh
